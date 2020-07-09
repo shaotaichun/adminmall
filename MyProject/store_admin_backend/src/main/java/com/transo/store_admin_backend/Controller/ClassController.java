@@ -28,7 +28,7 @@ import java.util.Optional;
 
 @RestController
 @CrossOrigin(origins = "*")
-@Api(value = "字典操作123", tags = "字典操作")
+@Api(value = "字典操作IDEA提交", tags = "字典操作")
 @RequestMapping("/backEndAdminClass")
 public class ClassController {
     @Value("${token.key}")
